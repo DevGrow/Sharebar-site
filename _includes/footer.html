@@ -1,0 +1,23 @@
+    </section>
+    <footer id="footer">
+      <a href="https://mixpanel.com/f/partner" class="mixpanel right"><img src="//cdn.mxpnl.com/site_media/images/partner/badge_light.png" alt="Mobile Analytics" /></a>
+      <p class="copyright">
+        <strong>&copy; {{ site.time | date: '%Y' }} {{ site.name }}</strong><br />
+        Build Date: <time class="build-date" datetime="{{ site..time }}">{{ site.time }}</time>
+      </p>
+    </footer>
+  </section>
+  <script type="text/javascript" src="/assets/application.js"></script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-2168469-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</body>
+</html>
